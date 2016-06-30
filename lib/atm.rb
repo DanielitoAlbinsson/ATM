@@ -47,7 +47,7 @@ class Atm
       end
     end
     bills
-  end  
+  end
 
   def incorrect_pin?(pin_code, actual_pin)
       pin_code != actual_pin
